@@ -1,0 +1,719 @@
+/* media query from 1350px to 1200px */
+
+@media screen and (max-width:1350px) and (min-width:1200px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px 6%;
+}
+
+.links_btns span 
+{
+     font-size: 18px;
+     margin-left: 20px;
+}
+
+/* Show_Prices */
+
+
+.Show_Prices a
+{
+    font-size: 16px;
+}
+
+/* links  */
+.links 
+{
+     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5% ;
+    font-family: "Nunito", sans-serif;
+}
+ 
+/* slider   */
+
+
+.slider_sale 
+{
+    margin:0 8%;
+}
+
+.sale_side button
+{
+margin-top:15px;
+}
+
+
+.sale_side h1 
+{
+font-size: 6rem;
+ line-height: 60px;
+}
+
+.sale_side h6 
+{
+ font-size: 1.8rem;
+ line-height: 28px;
+ margin-top: 27px;
+}
+
+.sale_side h2 
+{
+font-size:  6rem;
+Line-height:5rem;
+}
+
+.sale_side h2>span 
+{
+
+   font-Size :50px;
+Line-height:63px
+}
+
+}
+
+
+/* media query from 1200px to 992px */
+
+@media screen and (max-width:1200px) and (min-width:992px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px 5%;
+}
+
+.links_btns span 
+{
+     font-size: 16px;
+     margin-left: 20px;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 16px;
+}
+
+
+.search_content 
+{
+    width: 55%;
+}
+
+ 
+/* slider   */
+
+
+.slider_sale 
+{
+    margin:0 8%;
+}
+
+.sale_side button
+{
+margin-top:10px;
+}
+
+
+.sale_side h1 
+{
+font-size: 5rem;
+ line-height: 50px;
+}
+
+.sale_side h6 
+{
+ font-size: 1.4rem;
+ line-height: 22px;
+ margin-top: 20px;
+}
+
+.sale_side h2 
+{
+font-size:  5.2rem;
+Line-height:5rem;
+}
+
+.sale_side h2>span 
+{
+font-Size :40px;
+Line-height:50px
+}
+
+ 
+}
+
+
+
+/* media query from 992px to 768px */
+
+@media screen and (max-width:992px) and (min-width:768px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px 2%;
+}
+
+.links_btns span 
+{
+     font-size: 14px;
+     margin-left: 15px;
+}
+
+.logo img 
+{
+    width: 80%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+    font-size: 16px;
+}
+
+
+.search_content 
+{
+    width: 60%;
+}
+
+/* links  */
+.links 
+{
+    padding: 10px 3% ;
+ }
+ 
+ .links span 
+ {
+    font-size: 13px;
+ }
+
+ /* slider   */
+
+
+.slider_sale 
+{
+    margin:0 5%;
+}
+
+.sale_side button
+{
+margin-top:7px;
+}
+
+
+.sale_side h1 
+{
+font-size: 4rem;
+ line-height: 40px;
+}
+
+.sale_side h6 
+{
+ font-size: 1rem;
+ line-height: 18px;
+ margin-top: 15px;
+}
+
+.sale_side h2 
+{
+font-size:  4.5rem;
+Line-height:4rem;
+}
+
+.sale_side h2>span 
+{
+font-Size :30px;
+Line-height:40px
+}
+
+/* Search_history */
+
+
+.Search_history ,.Highest_rated ,.recently_arrived
+{
+  margin: 80px 5%;
+}
+
+.product h6 
+{
+font-size: 14px;
+font-weight: 800;
+}
+
+}
+
+ 
+
+
+/* media query from  768px  to 600 */
+
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px ;
+}
+
+.links_btns span 
+{
+     font-size: 13px;
+     margin-left: 15px;
+}
+
+.logo
+{
+    text-align: end;
+
+}
+.logo img 
+{
+    width: 45%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 14px;
+}
+
+
+.search_content 
+{
+    width: 70%;
+}
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: center;
+     margin-top:30px;
+    margin-right: 5%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 12px;
+ margin-right: 7px;
+ padding: 5px 17px;
+}
+
+.links 
+{
+    padding: 10px 1% ;
+ }
+
+ .links span 
+ {
+    font-size: 11px;
+ }
+ .links_left span 
+ {
+ margin-left: 5px;
+ }
+
+ 
+ /* slider   */
+
+
+.slider_sale 
+{
+    margin:0 3%;
+}
+
+.sale_side button
+{
+margin-top:7px;
+width: 100px;
+height: 30px;
+}
+
+
+.sale_side h1 
+{
+font-size: 3rem;
+ line-height: 30px;
+}
+
+.sale_side h6 
+{
+ font-size: .7rem;
+ line-height: 15px;
+ margin-top: 10px;
+}
+
+.sale_side h2 
+{
+font-size:  4rem;
+Line-height:3rem;
+}
+
+.sale_side h2>span 
+{
+font-Size :20px;
+Line-height:30px
+}
+
+}
+
+
+
+/* media query from  600px  to 350px */
+
+@media screen and (max-width:600px) and (min-width:350px)
+{
+    
+.Top_bar 
+{
+ display: block;
+padding: 10px 5px;
+}
+
+.links_btns span 
+{
+     font-size: 13px;
+     margin-left: 12px;
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 15px;
+}
+.logo img 
+{
+    width: 45%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 12px;
+}
+
+
+.search_content 
+{
+    width: 70%;
+}
+
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: start;
+     margin-top:30px;
+    margin-right: 1%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 12px;
+ margin-right: 7px;
+ padding: 5px ;
+ text-align: center;
+}
+
+ /* links  */
+.links 
+{
+     display: block; 
+     align-items: center;
+    padding: 10px 0% ;
+ }
+
+ .links span 
+ {
+    font-size: 12px;
+ }
+ .links_left 
+ {
+     text-align: center;
+    margin-top: 15px;
+ }
+
+ .links_left span 
+ {
+ margin-left: 2px;
+ }
+
+  
+ /* slider   */
+
+
+.slider_sale 
+{
+    margin:0 2%;
+ }
+
+.sale_side button
+{
+margin-top:7px;
+width: 70px;
+height: 20px;
+font-size: .6rem;
+}
+
+
+.sale_side h1 
+{
+font-size: 1.6rem;
+ line-height: 18px;
+}
+
+.sale_side h6 
+{
+ font-size: .6rem;
+ line-height: 10px;
+ margin-top: 10px;
+}
+
+.sale_side h2 
+{
+font-size: 2.3rem;
+Line-height:2rem;
+}
+
+.sale_side h2>span 
+{
+font-Size :17px;
+Line-height:17px
+}
+
+/* ******/
+
+.Messaging select 
+{
+    padding: 5px 40px;
+}
+ 
+
+/* Search_history */
+
+
+.Search_history ,.Highest_rated ,.recently_arrived
+{
+  margin: 80px 5%;
+}
+
+
+
+.title_Search_history h3 ,.title_recently_arrived h3
+{
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.title_Search_history span  ,.title_recently_arrived h3
+{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+
+}
+ 
+
+
+/* media query from  350px to end*/
+
+@media screen and (max-width:350px) 
+{
+    
+.Top_bar 
+{
+ display: block;
+padding: 10px ;
+}
+
+.links_btns span 
+{
+     font-size: 16px;
+     margin-left: 10px;
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 15px;
+}
+.logo img 
+{
+    width: 50%;
+}
+
+
+
+/* search */
+.search
+{
+    display: block;
+
+     margin-top:  15px ;
+     text-align: center;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.search_content 
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: start;
+     margin-top:30px;
+    margin-right: 1%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 10px;
+ margin-right: 4px;
+ padding: 5px ;
+ text-align: center;
+}
+
+ /* links  */
+ .links 
+ {
+      display: block; 
+      align-items: center;
+     padding: 10px 0% ;
+  }
+ 
+  .links span 
+  {
+     font-size: 8px;
+  }
+  .links_left 
+  {
+      text-align: center;
+     margin-top: 15px;
+  }
+ 
+  .links_left span 
+  {
+  margin-left: 2px;
+  }
+
+    
+ /* slider   */
+
+
+.slider_sale 
+{
+    margin:0 2%;
+ }
+
+.sale_side button
+{
+margin-top:0px;
+width: 60px;
+height: 16px;
+font-size: .5rem;
+}
+
+
+.sale_side h1 
+{
+font-size: .8rem;
+ line-height: 10px;
+}
+
+
+.sale_side h6 
+{
+ font-size: .6rem;
+ line-height: 10px;
+ margin-top: 0px;
+}
+
+.sale_side h2 
+{
+font-size: 1.2rem;
+Line-height:1.7rem;
+}
+
+.sale_side h2>span 
+{
+font-Size :15px;
+Line-height:14px
+}
+
+/* ******/
+
+.Messaging select 
+{
+    padding: 5px 20px;
+}
+ 
+
+/* Search_history */
+
+
+.Search_history ,.Highest_rated ,.recently_arrived
+{
+  margin: 80px 5%;
+}
+
+
+
+
+.title_Search_history h3 
+{
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.title_Search_history span  ,.title_recently_arrived span
+{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.title_Highest_rated h3 
+{
+font-size: 17px;
+}
+
+
+}
+ 

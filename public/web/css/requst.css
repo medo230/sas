@@ -1,0 +1,56 @@
+body{
+    background-color: #F4F4F4 ;
+}
+.prod-name{
+    color: #999999;
+    font-size: 11px;
+}
+.recom-prod{
+    color: #999999;
+}
+.recom-prod:hover{
+    color: #999999;
+}
+.req-sec{
+    font-size: 13px;
+}
+
+.upload[type= "file"] {
+    display: none
+}
+.upload-label{
+    background-color: #FBFBFB;
+    cursor: pointer;
+    border: 2px dotted #d8d6d6;
+}
+.submit-btn{
+    font-size: 14px;
+    background: #FF6600;
+    transition: all 0.5s;
+}
+.submit-btn:hover{
+    background-color: #E55B00;
+}
+.head{
+    margin-right: 150px;
+}
+.btn-div{
+    text-align: end;
+}
+
+@media screen and (max-width:600px){
+   .head{
+    margin-right: -50px ;
+   }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .head{
+        margin-right: -50px ;
+       }
+
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .head{
+        margin-right: -50px ;
+       }
+}
